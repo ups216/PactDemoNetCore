@@ -11,7 +11,7 @@
       "providerState": "There is a something with id 'tester'",
       "request": {
         "method": "get",
-        "path": "/somethings/tester",
+        "path": "/Somethings/tester",
         "headers": {
           "Accept": "applciation/json"
         }

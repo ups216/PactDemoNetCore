@@ -25,7 +25,7 @@ namespace Consumer
 
         public async Task<Something> GetSomething(string id)
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, "/somethings/" + id);
+            var request = new HttpRequestMessage(HttpMethod.Get, "/Somethings/" + id);
             request.Headers.Add("Accept", "applciation/json");
 
             var response = await _client.SendAsync(request);

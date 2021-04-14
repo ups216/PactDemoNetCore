@@ -1,4 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cc90b292_002Dc738_002D4baa_002Dae55_002Dff6b3b2df393/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from SomethingApiConsumerTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;ProjectFile&gt;2D973835-84EA-4CA8-87E9-C34E5A113EA8/f:SomethingApiConsumerTests.cs&lt;/ProjectFile&gt;
+  &lt;Or&gt;
+    &lt;ProjectFile&gt;2D973835-84EA-4CA8-87E9-C34E5A113EA8/f:SomethingApiConsumerTests.cs&lt;/ProjectFile&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;xUnit::CFE6AF01-8B9F-4340-8325-B3B865829DB9::net5.0::Provider.Api.Web.Tests.SomethingApiProviderTests.EnsureApiHonoursPactWithConsumer&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;Project Location="/Users/leixu/sources/tmp/PactDemo/Provider.Api.Web.Tests" Presentation="&amp;lt;Provider.Api.Web.Tests&amp;gt;" /&gt;
+  &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -33,7 +33,7 @@ namespace Consumer.Tests
                 .With(new ProviderServiceRequest
                 {
                     Method = HttpVerb.Get,
-                    Path = $"/somethings/{expectedId}",
+                    Path = $"/Somethings/{expectedId}",
                     Headers = new Dictionary<string, object>
                     {
                         {"Accept", "applciation/json"}
