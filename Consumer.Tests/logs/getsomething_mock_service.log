@@ -1,0 +1,50 @@
+I, [2021-04-15T00:19:22.336017 #56275]  INFO -- : Registered expected interaction GET /somethings/tester
+D, [2021-04-15T00:19:22.336229 #56275] DEBUG -- : {
+  "description": "A Get request to retrieve the Id of something",
+  "providerState": "There is a something with id 'tester'",
+  "request": {
+    "method": "get",
+    "path": "/somethings/tester",
+    "headers": {
+      "Accept": "applciation/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "Id": "tester",
+      "FirstName": "Totally",
+      "LastName": "Awesome"
+    }
+  },
+  "metadata": null
+}
+I, [2021-04-15T00:19:22.340612 #56275]  INFO -- : Received request GET /somethings/tester
+D, [2021-04-15T00:19:22.340705 #56275] DEBUG -- : {
+  "path": "/somethings/tester",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:9222",
+    "Accept": "applciation/json",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-04-15T00:19:22.340966 #56275]  INFO -- : Found matching response for GET /somethings/tester
+D, [2021-04-15T00:19:22.341031 #56275] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "Id": "tester",
+    "FirstName": "Totally",
+    "LastName": "Awesome"
+  }
+}
+I, [2021-04-15T00:19:22.347909 #56275]  INFO -- : Verifying - interactions matched for example ""
+I, [2021-04-15T00:19:22.362339 #56275]  INFO -- : Writing pact for GetSomething to ../../../pacts/somethingapiclient-getsomething.json
+I, [2021-04-15T00:19:22.365526 #56275]  INFO -- : Cleared interactions for example ""
