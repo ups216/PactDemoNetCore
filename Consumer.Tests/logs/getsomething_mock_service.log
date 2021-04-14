@@ -1,5 +1,5 @@
-I, [2021-04-15T00:19:22.336017 #56275]  INFO -- : Registered expected interaction GET /somethings/tester
-D, [2021-04-15T00:19:22.336229 #56275] DEBUG -- : {
+I, [2021-04-15T00:25:42.897032 #56374]  INFO -- : Registered expected interaction GET /somethings/tester
+D, [2021-04-15T00:25:42.898783 #56374] DEBUG -- : {
   "description": "A Get request to retrieve the Id of something",
   "providerState": "There is a something with id 'tester'",
   "request": {
@@ -22,8 +22,8 @@ D, [2021-04-15T00:19:22.336229 #56275] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-04-15T00:19:22.340612 #56275]  INFO -- : Received request GET /somethings/tester
-D, [2021-04-15T00:19:22.340705 #56275] DEBUG -- : {
+I, [2021-04-15T00:25:42.904552 #56374]  INFO -- : Received request GET /somethings/tester
+D, [2021-04-15T00:25:42.904640 #56374] DEBUG -- : {
   "path": "/somethings/tester",
   "query": "",
   "method": "get",
@@ -33,8 +33,8 @@ D, [2021-04-15T00:19:22.340705 #56275] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-04-15T00:19:22.340966 #56275]  INFO -- : Found matching response for GET /somethings/tester
-D, [2021-04-15T00:19:22.341031 #56275] DEBUG -- : {
+I, [2021-04-15T00:25:42.904946 #56374]  INFO -- : Found matching response for GET /somethings/tester
+D, [2021-04-15T00:25:42.905013 #56374] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -45,6 +45,6 @@ D, [2021-04-15T00:19:22.341031 #56275] DEBUG -- : {
     "LastName": "Awesome"
   }
 }
-I, [2021-04-15T00:19:22.347909 #56275]  INFO -- : Verifying - interactions matched for example ""
-I, [2021-04-15T00:19:22.362339 #56275]  INFO -- : Writing pact for GetSomething to ../../../pacts/somethingapiclient-getsomething.json
-I, [2021-04-15T00:19:22.365526 #56275]  INFO -- : Cleared interactions for example ""
+I, [2021-04-15T00:25:42.912588 #56374]  INFO -- : Verifying - interactions matched for example ""
+I, [2021-04-15T00:25:42.928100 #56374]  INFO -- : Writing pact for GetSomething to ../../../../pacts/somethingapiclient-getsomething.json
+I, [2021-04-15T00:25:42.932227 #56374]  INFO -- : Cleared interactions for example ""
